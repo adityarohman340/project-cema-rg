@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="html/css/bootstrap.css">
+    <link rel="stylesheet" href="html/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="html/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="html/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="html/js/bootstrap.js">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="materialize/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+      $('.carousel').carousel()
+    </script>
+    <title>Selamat Datang</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="nav_bar">
+        <a class="navbar-brand" href="index.html"><img id="logo" src="img/cema-logo.png" alt="logocema"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" id="help">Pusat Bantuan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="" id="home">Kontak<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>          
+          <a class="waves-effect waves-light btn-large" href="register.html" id="btnlogin"><i class="material-icons right">account_circle</i>Sign Up</a>
+        </div>
+      </nav>
+    <!-- End of Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container" id="jumbo">
+        <img src="img/Jumbotron.png" alt="" id="jumbo_pic">
+        <h1 class="display-4"><span id="span1">Selamat</span> <span id="span2">Datang</span></h1>
+        <p class="lead">CeMa merupakan website yang membantu mendeteksi
+          kelainan pada mata dan meningkatkan pemahaman
+          masyarakat Indonesia tentang berbagai kelainan pada mata, penyebab-penyababnya serta pentingnya menjaga kesehatan mata</p>
+      </div>
+    </div>
+    <!-- End of Jumbotron -->
+
+    <!-- Content -->
+    <div id="content">
+      <div class="container">
+        <div class="title">
+          <h5>- Mulai Tes Kesehatan Mata -</h5>
+        </div>
+        <div class="column">
+          <a class="waves-effect waves-light btn-large" id="btn-test1" href="#">
+            <img src="img/miopi-test.png" alt="">
+            <h5>Tes Miopi</h5>
+          </a>
+        </div>
+        <div class="column">
+          <a class="waves-effect waves-light btn-large" id="btn-test2" href="#">
+            <img src="img/color-blind.png" alt="">
+            <h5>Tes Buta Warna</h5>
+          </a>
+        </div>
+
+        <hr id="line-break">
+
+        <div id="testi-title">
+          <h5>- Testimoni -</h5>
+        </div>
+
+        <div id="testi">
+          <div class="testi-author">
+            <img src="img/Rectangle 2.png" alt="">
+            <h6>Nadine</h6>
+          </div>
+          <h5 class="comment-title">Cukup akurat dan tampilan bagus</h5>
+          <div class="comment">
+            <p><em>"Saya sudah mencoba untuk tes miopi di website ini, dan saya mendapatkan hasil tes bagaimana perkembangan kesehatan mata saya serta tips menjaga kesehatan mata. Saya merekomendasikan CEMA sebagai layanan tes mata terpercaya"</em></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <div id="column">
+          <h4><i class="material-icons center" style="margin-right:10px;">link</i>our Links</h4>
+          <p>
+            <a href="https://www.facebook.com/aditya.de13" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/sea.laboratory/?hl=id" class="fa fa-instagram"></a>
+            <a href="mailto:adityarohman340@gmail.com" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+          </p>
+        </div>
+        <div id="column">
+          <h4><span style="font-weight:100;">ce</span>ma <span style="font-weight:100; text-transform:lowercase;">apps</span></h4>
+          <p>CEMA dikembangkan oleh RG Team SEA Laboratory Telkom University</p>
+          <p><i class="material-icons left">copyright</i>copyright sealaboratory 2019</p>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
